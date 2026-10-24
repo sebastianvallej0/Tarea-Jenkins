@@ -1,0 +1,11 @@
+{
+  "name": "demo-ci-jenkins",
+  "version": "1.0.0",
+  "description": "Proyecto mínimo para probar un pipeline CI en Jenkins",
+  "main": "suma.js",
+  "scripts": {
+    "build": "node -e \"require('./suma.js'); console.log('Build OK')\"",
+    "test": "node --test"
+  },
+  "license": "ISC"
+}
